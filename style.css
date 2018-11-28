@@ -18,35 +18,25 @@ body {
 
 }
 
-#content {
-  overflow: auto;
-  color: green; }
-#nav, #feature, #footer {
-  margin: 3%;}
-.column1 {
-  width: 100%;
-  float: center;
-  margin: 1%;
-  height: 100;
-  margin-bottom: 1em;
-  background-color:white;
-  padding: 0.5em;}
-main {
-  flex: auto;
-}
+#nav, #feature,  {
+  margin: 3%;
+  }
 
-h1 {
-  color:white;
+h1, h3{
+  
+  padding: 0.5em;
+  background-color:antiquewhite;
 }
 
 #nav, #footer {
-  
-  background-color:pink;
+
+  background-color:antiquewhite;
   padding: 0.5em 12px;
   margin: 0.5px;
-  padding: 10px 20px
-}
+  padding: 10px 20px;
   
+}
+
 
 #nav li {
   display:inline;
@@ -55,11 +45,23 @@ h1 {
 
 
 p, h1,a { 
- font-family: 'CMUSerifRoman'; 
-   font-weight: normal; 
-   font-style: normal; ; 
+  font-family: 'CMUSerifRoman'; 
+  font-weight: normal; 
+  font-style: normal; ; 
   font-size: 200%;
+  
+  
 }
+
+
+p{
+  background-color: azure
+}
+
+h2{
+  background-color: goldenrod
+}
+
 
 
 
