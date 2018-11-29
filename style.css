@@ -1,85 +1,62 @@
-font-family : "'DancingScriptBold'";
-src : url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/6ab6f85a709e103ab69d7151b4b1e131/DancingScriptBold.ttf') format('truetype');
-font-weight : bold;
-font-style : normal;
-}
-@font-face {
-{
-font-family : "'DancingScriptOTRegular'";
-src : url('/assets/fonts/dancing/d51f764494f0fb844453679a0176f2e9/852d3108213d289a77efe58cd05a9f9f/DancingScriptOTRegular.otf') format('opentype');
-font-weight : normal;
-font-style : normal;
-}
-}
-@font-face {
-{
-font-family : "'DancingScriptRegular'";
-src : url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf') format('truetype');
-font-weight : normal;
-font-style : normal;
-}
-}
-@font-face {
-{
-font-family : "'Dancing Script'";
-src : url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/6ab6f85a709e103ab69d7151b4b1e131/DancingScriptBold.ttf') format('truetype');
-font-weight : bold;
-font-style : normal;
-}
-}
-@font-face {
-{
-font-family : "'Dancing Script OT'";
-src : url('/assets/fonts/dancing/d51f764494f0fb844453679a0176f2e9/852d3108213d289a77efe58cd05a9f9f/DancingScriptOTRegular.otf') format('opentype');
-font-weight : normal;
-font-style : normal;
-}
-}
-@font-face {
-{
-font-family : "'Dancing Script'";
-src : url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf') format('truetype');
-font-weight : normal;
-font-style : normal;
-}
-}
 body {
-padding : 0.5em;
-width : 90%;
-margin : 0 auto;
-background-image : url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
-background-size : contain;
-background-position : center;
-background-repeat : no-repeat;
-background-attachment : fixed;
-background-size : cover;
+  padding : 0.5em;
+  width : 90%;
+  margin : 0 auto;
+  background-image : url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
 }
-#nav, #feature {
-margin : 3%;
+#content {
+  overflow : auto;
+  color : green;
 }
-h1, h3 {
-padding : 0.5em;
-background-color : antiquewhite;
+#nav, #feature, #footer {
+  margin : 3%;
+}
+.column1 {
+  width : 100%;
+  margin : 1%;
+  margin-bottom : 1em;
+  background-color : wheat;
+  padding : 0.5em;
+}
+main {
+  flex : auto;
+}
+h1 {
+  color : white;
 }
 #nav, #footer {
-background-color : antiquewhite;
-padding : 0.5em 12px;
-margin : 0.5px;
-padding : 10px 20px;
+  background-color : pink;
+  padding : 0.5em 12px;
+  margin : 0.5px;
+  padding : 10px 20px;
+}
+.image {
+  margin-left : 10%;
+  margin-right : 10%;
+  text-align : center;
+  border-radius : 50%;
+}
+.clear {
+  clear : both;
 }
 #nav li {
-display : inline;
-padding : 1em;
+  display : inline;
+  padding : 1em;
+}
+p{
+  background-color: antiquewhite;
+}
+h2{
+  background-color: khaki
 }
 p, h1, a {
-font-family : 'CMUSerifRoman';
-font-weight : normal;
-font-style : normal;
-font-size : 200%;
-}
-p {
-background-color : azure;
-}
-h2 {
-background-color : goldenrod;
+  font-family : 'CMUSerifRoman';
+  font-weight : normal;
+  font-style : normal;
+  font-size : 200%;
 }
